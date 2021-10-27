@@ -72,7 +72,7 @@ input::placeholder{
     width:70vw;
     height:5vh;
     position: absolute;
-    top:180px;
+    top:190px;
     left:70px;
     border-radius: 20px;
     border: 0;
@@ -88,7 +88,7 @@ input::placeholder{
     /* width:70px;
      height:80px; */
      position: absolute;
-    top:220px;
+    top:250px;
     left:30px;
  }
 
