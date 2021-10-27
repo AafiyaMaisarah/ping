@@ -6,27 +6,27 @@
 .ping{
     text-align: center;
     font-size: 50px;
-    margin-top: 5px;
-    padding: -10px;
+    /* margin-top: 5px;
+    padding: -10px; */
     position: absolute;
     top:20px;
-    left:140px;
+    left:120px;
 }
 .launch{
     text-align: center;
     color: rgb(165, 154, 154);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Rubik', sans-serif;
     font-weight: lighter;
      position: absolute;
      top: 75px;
-     left:90px;
+     left:70px;
 
      
 }
 .soon{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: black;
     font-weight: bold;
 }
@@ -131,11 +131,11 @@ div{
     height:15px;
     border-radius: 40px;
     font-size: 12px;
-    border:1px solid rgb(168, 141, 141);
+    border:1px solid rgb(153, 163, 164);;
     color:rgb(153, 163, 164);
     background-color: white;
     position: absolute;
-    top:612px;
+    top:614px;
     left:96px;
     text-align: center;
     
