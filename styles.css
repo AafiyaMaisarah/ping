@@ -3,11 +3,23 @@
     padding:0;
     box-sizing: border-box;
 }
+.image1{
+    display: none;
+}
+
+.ping1{
+    display:none
+}
+.launch1{
+    display:none;
+}
+.soon1{
+    display: none;
+}
+
 .ping{
     text-align: center;
     font-size: 50px;
-    /* margin-top: 5px;
-    padding: -10px; */
     position: absolute;
     top:20px;
     left:120px;
@@ -64,8 +76,7 @@ input::placeholder{
     left:70px;
     border-radius: 20px;
     border: 0;
-    /* border:2px solid rgb(60, 60, 190); */
-    background-color: blue;
+  background-color: blue;
     color:white;
 
 }
@@ -73,38 +84,11 @@ input::placeholder{
     color: white;
     padding:60px;
 }
-/* .f{
-    font-size: 15px;
-    background-color: white;
-    width:10px;
-    height: 25px;
-    border-radius: 10px;
-    position: absolute;
-    top:50px;
-}
-.img{
-    /* background-color: blue; */
-    /* position: absolute;
-    top:200px;
-} */ 
-div{
-    display: flex;
-    /* justify-content: space-between; */
-    padding-right: 20px;
-    /* margin-right: 20px; */
-}
-/* .button{
-   border-radius:20px;
-   border:2px solid rgb(226, 226, 240);
-   position: absolute;
-   top:550px;
-   left:40px;
-  
-} */
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
+ .image{
+    width:70px;
+     height:80px;
+ }
+
 .f{
     border-radius:20px;
    border:2px solid rgb(226, 226, 240);
@@ -148,3 +132,142 @@ div{
     left:110px;
     font-size: 10px;
 }
+ @media screen and (min-width:1024px){
+.image{
+    display: none;
+}
+.ping{
+    display: none;
+}
+.image1{
+    display:block;
+
+}
+.ping1{
+    display: block;
+}
+.launch1{
+    display: block;
+}
+.launch{
+    display: none;
+}
+.soon1{
+    display: block;
+}
+.ping1{
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top:95px;
+    left:500px;
+}
+    .launch1{
+        text-align: center;
+    color: rgb(165, 154, 154);
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+     position: absolute;
+     top: 235px;
+     left:350px;
+    
+} 
+.soon1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top:1px;
+    left:410px;
+}
+.subscribe{
+    color:rgb(95, 92, 92);
+    font-size: 30px;
+    position: absolute;
+    top:300px;
+    left:420px;
+}
+.image1{
+    position: absolute;
+    top:540px;
+    left: 280px;
+}
+input{
+    width:30vw;
+    height:5vh;
+    position: absolute;
+    top:400px;
+    left:270px;
+    border-radius: 50px;
+    border:2px solid rgb(185, 185, 246);
+
+}
+input::placeholder{
+    color:rgb(185, 185, 246); 
+    padding:20px;
+    font-size: 25px;
+}
+.button{
+    width:20vw;
+    height:5vh;
+    position: absolute;
+    top:400px;
+    left:720px;
+    border-radius: 50px;
+    border: 0;
+  background-color: blue;
+    color:white;
+    float:right;
+
+}
+.button::placeholder{
+    color: white;
+    padding:60px;
+    text-align: center;
+}
+.f{
+    border-radius:20px;
+   border:2px solid rgb(226, 226, 240);
+   position: absolute;
+   top:1000px;
+   left:480px;
+}
+.tp{
+    border-radius:20px;
+   border:2px solid rgb(226, 226, 240);
+   position: absolute;
+   top:1000px;
+   left:530px;
+}
+.inst{
+    border-radius:20px;
+   border:2px solid rgb(226, 226, 240);
+   position: absolute;
+   top:1000px;
+   left:580px;
+}
+.c{
+    width:12px;
+    height:15px;
+    border-radius: 40px;
+    font-size: 12px;
+    border:1px solid rgb(153, 163, 164);;
+    color:rgb(153, 163, 164);
+    background-color: white;
+    position: absolute;
+    top:1050px;
+    left:440px;
+    text-align: center;
+    
+    
+}
+.copy{
+    color:rgb(153, 163, 164) ;
+    position: absolute;
+    top:1050px;
+    left:460px;
+    font-size: 15px;
+}
+ }
