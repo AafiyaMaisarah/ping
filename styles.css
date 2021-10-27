@@ -52,7 +52,7 @@
     font-size: 12px;
     position: absolute;
     top:110px;
-    left:100px;
+    left:90px;
 }
 input{
     width:70vw;
@@ -85,8 +85,11 @@ input::placeholder{
     padding:60px;
 }
  .image{
-    width:70px;
-     height:80px;
+    /* width:70px;
+     height:80px; */
+     position: absolute;
+    top:220px;
+    left:30px;
  }
 
 .f{
